@@ -1,4 +1,4 @@
-require 'Win32ole'
+require 'win32ole'
 
 Facter.add(:windows_users) do
   confine :kernel => 'Windows'
